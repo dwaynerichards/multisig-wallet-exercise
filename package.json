@@ -1,0 +1,31 @@
+{
+  "name": "multisig-wallet-exercise",
+  "version": "1.0.0",
+  "description": "creating multisig wallets in solidity",
+  "main": "truffle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "solhint --max-warnings 0 \"contracts/**/*.sol\"",
+    "solhint": "./node_modules/.bin/solhint -f table contracts/**/*.sol",
+    "prettier": "prettier --write 'contracts/**/*.sol'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwaynerichards/multisig-wallet-exercise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dwaynerichards/multisig-wallet-exercise/issues"
+  },
+  "homepage": "https://github.com/dwaynerichards/multisig-wallet-exercise#readme",
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.19",
+    "solhint": "^3.3.6",
+    "solhint-plugin-prettier": "^0.0.5"
+  },
+  "dependencies": {
+    "solc": "^0.8.11"
+  }
+}
